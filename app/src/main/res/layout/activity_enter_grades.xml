@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EnterGrades">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="125dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="enter your grades" />
+
+    <EditText
+        android:id="@+id/ETname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ETgrades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="grade"
+        android:gravity="center"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/ETreva"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:hint="reva"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="57dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="entergrades"
+        android:text="enter" />
+
+</LinearLayout>
